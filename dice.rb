@@ -47,7 +47,11 @@ puts computer_total
 
 # STEP 6
 # Determine the winner/if it is a tie and output a message that congratulates the winner!
-puts 
-if total > computer_total puts "Congratulations! You Won!"
-elsif computer_total< total puts "Sorry! You Lost.:("
-elsif total = computer_total puts "It's a tie!"
+ 
+if total > computer_total 
+puts "Congratulations! You Won!"
+elsif computer_total< total 
+puts "Sorry! You Lost.:("
+elsif total == computer_total 
+puts "It's a tie!"
+end 
