@@ -15,12 +15,14 @@ total= 0
 rochelles_rolls.each do |roll|
   # .each isolates each roll 
   total = total + roll 
+  #only use string interpolation with strings, USE THIS FOR INTEGERS 
+  
   
 end 
 
 
 
-computer_array = [1, 2, 4, 6, 13, 17, 18, 20, 22, 30, 29, 6, 8, 13, 14, 15, 17, 14, 16, 12, 22]
+# computer_array = [1, 2, 4, 6, 13, 17, 18, 20, 22, 30, 29, 6, 8, 13, 14, 15, 17, 14, 16, 12, 22]
 
 #STEP 1
 # Simulate the rolling of a die 5 times
