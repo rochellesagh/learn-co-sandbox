@@ -41,5 +41,9 @@ puts total
 # STEP 5
 # Compare your total to the computer’s total (a random number chosen from the computer_array)
 
+computer_array = [6, 13, 17, 18, 20, 22, 30, 29, 6, 8, 13, 14, 15, 17, 14, 16, 12, 22]
+computer_total = computer_array.sample 
+puts computer_total
+
 # STEP 6
 # Determine the winner/if it is a tie and output a message that congratulates the winner!
