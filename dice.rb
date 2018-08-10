@@ -1,9 +1,11 @@
 
 dice = [1, 2, 3, 4, 5, 6]
+rochelles_rolls = []
 
 counter = 0 
 while counter <5 
-puts dice.sample
+  # puts dice.sample
+  rochelles_rolls.push(dice.sample)
 counter = counter + 1 
 end 
 
